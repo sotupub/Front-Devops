@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { authService } from '../services/auth.service';
 import { useRouter } from 'next/router';
+import './styles/globals.css'
+
 
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
